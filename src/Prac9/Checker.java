@@ -10,6 +10,20 @@ public class Checker {
         this.fullName = fullName;
     }
 
+    public Checker() {}
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getINN() {
+        return INN;
+    }
+
     public Checker(String fullName) {
         this.fullName = fullName;
     }
