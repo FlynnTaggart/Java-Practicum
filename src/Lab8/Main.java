@@ -1,6 +1,7 @@
 package Lab8;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -17,7 +18,11 @@ public class Main {
             text += "\n" + scanner.nextLine();
         }
         try {
-            Files.write(Paths.get(filePath), text.getBytes(), StandardOpenOption.APPEND);
+           // Files.write(Paths.get(filePath), text.getBytes(), StandardOpenOption.APPEND);
+            FileWriter writer = new FileWriter(filePath, true);
+            writer.write(text);
+            writer.flush();
+            writer.close();
         }
         catch (FileNotFoundException e){
             System.out.println(e);
