@@ -1,4 +1,4 @@
-package Lab11and12.Task3;
+package Prac11and12.Task3;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package Lab11and12.Task4;
+package Prac11and12.Task4;
 
 public class NumberChecker {
     private int countryCode = 0;

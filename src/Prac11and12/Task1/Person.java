@@ -1,4 +1,4 @@
-package Lab11and12.Task1;
+package Prac11and12.Task1;
 
 public class Person {
     private String surname = "Unknown";

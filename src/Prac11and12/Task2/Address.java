@@ -1,4 +1,4 @@
-package Lab11and12.Task2;
+package Prac11and12.Task2;
 
 import java.util.List;
 import java.util.StringTokenizer;

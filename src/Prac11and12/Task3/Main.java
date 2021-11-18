@@ -1,4 +1,4 @@
-package Lab11and12.Task3;
+package Prac11and12.Task3;
 
 public class Main {
     public static void main(String[] args) {
