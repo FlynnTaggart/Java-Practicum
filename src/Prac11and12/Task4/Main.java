@@ -5,6 +5,7 @@ public class Main {
         NumberChecker numberChecker = new NumberChecker("+79852267261");
         System.out.println(numberChecker);
         numberChecker.parseNumber("89861321233");
+        numberChecker.parseNumber("+43219861321233");
         System.out.println(numberChecker);
     }
 }
