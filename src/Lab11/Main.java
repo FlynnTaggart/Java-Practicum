@@ -18,7 +18,7 @@ public class Main {
         b.add("asdasd");
         b.add("56456");
         b.add("dfgdfg");
-        b.add("dfgdfg");
+        b.add("uiyiuyi");
         b.add("ayuiyiu");
         System.out.println(Solution.newHashMap(a, b));
     }

@@ -12,6 +12,9 @@ public class Main {
         Calendar calendar = new GregorianCalendar();
         calendar.setTime(date);
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
-        System.out.println("Shcheglov 25.11.2021 19:00 " +  sdf.format(calendar.getTime()));
+        Date date1 = new GregorianCalendar(2021, 11 - 1, 25).getTime();
+        date1.setHours(19);
+        date1.setMinutes(30);
+        System.out.println("Shcheglov " + sdf.format(date1) + " " +  sdf.format(calendar.getTime()));
     }
 }

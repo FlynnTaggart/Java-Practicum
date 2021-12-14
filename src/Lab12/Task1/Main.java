@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
-        Pattern pattern = Pattern.compile("^\\d*.?\\d?\\d?\\s(USD|EU|RUB)$");
+        Pattern pattern = Pattern.compile("^\\d+.?\\d{2}\\s(USD|EU|RUB)$");
         Matcher matcher = pattern.matcher(s);
         System.out.println(matcher.matches());
     }
